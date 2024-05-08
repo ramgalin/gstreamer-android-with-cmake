@@ -789,13 +789,6 @@ static void gst_android_init(JNIEnv * env, jobject context)
         return;
     }
 
-    gst_pb_utils_init();
-
-    // TODO: this is just a temporary solution for SIOF problem,
-    //       remove when solved
-    //GstDiscoverer *discoverer = gst_discoverer_new(GST_SECOND * 5, NULL);
-    //gst_object_unref(discoverer);
-
     __android_log_print(
         ANDROID_LOG_INFO,
         "GStreamer",
