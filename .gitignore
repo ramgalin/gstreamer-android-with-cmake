@@ -1,3 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
 # Gradle files
 .gradle/
 build/
@@ -15,12 +26,6 @@ captures/
 *.apk
 output.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
 # Keystore files
 *.jks
@@ -31,3 +36,5 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+deps%
