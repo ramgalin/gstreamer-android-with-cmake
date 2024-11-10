@@ -55,9 +55,11 @@ target_link_directories(
 )
 
 find_library(loglib log PATH ${ANDROID_NDK_LIB_PATH})
+find_library(ANDROID_LIB android)
 
 target_link_libraries(
     ${PROJECT_NAME} PUBLIC
+    ${ANDROID_LIB}
     ${loglib}
     #${GLESv2-lib}
     #${EGL-lib}

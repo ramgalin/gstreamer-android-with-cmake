@@ -42,10 +42,8 @@ set(
         gstdeinterlace
         gstipcpipeline
         gstisomp4
-        gstivorbisdec
         gstjpeg
         gstjpegformat
-        gstkate
         gstlame
         gstmatroska
         gstmidi
@@ -112,6 +110,7 @@ set(
         gstriff-1.0
         gstrtp-1.0
         gstsdp-1.0
+        gstsoup
         gstrtsp-1.0
         gstphotography-1.0
         gstcontroller-1.0
@@ -125,9 +124,7 @@ set(
         FLAC
         ogg
         vorbis
-        vorbisidec
         vorbisenc
-        kate
         mp3lame
         mpg123
         openh264
@@ -170,6 +167,8 @@ set(
         dv
         xml2
         ssl
+        soup-2.4
+        psl
         crypto
         expat
         fontconfig

@@ -2,6 +2,8 @@
 
 Project to show the way how to configure Android app to work with native Gstreamer using CMake.
 
+This branch is tested to work with gstreamer-1.24.x versions.
+
 ## How to use
 
 In **app/src/main/cpp/cmake-external-modules/dependencies.cmake** put the path where you store gstreamer libs.
